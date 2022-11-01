@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* body */
+body{
+    /* background-color: #d8eaab; */
+    background-color: #cdec84;
+
+}
+
+
+/* header */
+header{
+    margin: 50px;
+    position: relative;
+    text-align: center;
+    display: block;
+    align-items: center;
+    /* padding: 5% 0 5% 0; */
+    /* display: flex; */
+    /* background-image: url(/img/huerta-1.jpg);
+    background-repeat: no-repeat;
+    /* background-position: top; */
+    /* background-color: #b5d98f; */
+    /* background-color: #f2dc96; */
+    /* position: sticky;
+    /*top: 0; */
+}
+
+.img-huerta-1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 330px;
+    filter: blur(2px);
+}
+
+.titulo{
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    font-size: 10em;
+    color: #ee6055;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    /* -webkit-text-stroke: 2px black */
+    /* margin: 20px 0; */
+    /* font-family: 'Cabin Sketch', cursive; */
+    /* font-family: 'Aref Ruqaa Ink', serif; */
+    /* font-family: 'Passions Conflict', cursive; */
+    /* right: 40px; */
+}
+
+/* navegation */
+
+nav{
+    display: block;
+    position: relative;
+    /* position: sticky;
+    top: 0%; */
+    background-color: #ffe67e;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: #ffe67e;
+    justify-content: space-around;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* margin-right: 45px; */
+}
+
+nav li{
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-weight: bold;
+    height: 50px;
+    position: relative;
+    left: 40px;
+    /* background-color: rgb(255,255,114); */
+    /* padding: 0 20px; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'Permanent Marker', cursive; */
+}
+
+nav a{
+    display: flex;
+    align-items: baseline;
+    padding: 0;
+}
+
+nav a:hover{
+    color: #ee6055;
+}
+
+/* _____________________ */
+
+/* main */
+
+
+
+/* section */
+
+
+
+/* article 1*/
+
+.welcome{
+    margin: 70px 50px /* 50px 50px */;
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+}
+
+/* article 2*/
+
+/* .second-article{
+    
+} */
+
+/* maneja el tamaño de las img */
+.huerta-container li img{
+    width: 100%;
+    height: 100%;
+    /* redondes de las img */
+    border-radius: 10px;
+}
+
+/* blurrea solo la img */
+/* .huerta-container li img:hover{
+    transition: 0.5s;
+    filter: blur(2px);
+} */
+
+
+/* grilla de imgs */
+.huerta-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 0 20px 50px 20px;
+}
+
+/* grosor del color y redondez del borde exterior */
+.huerta-container li{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.huerta-container li{
+    list-style: none;
+}
+
+.huerta-container li:hover{
+    background-color: #ee6055;
+}
+
+.texto-producto{
+    position: absolute;
+    background-color: #ffc885;
+    border-radius: 10px 10px;
+    border: 2px solid #000;
+    padding: 5px;
+
+    /* display: inline-block; */
+    /* z-index: 1; */
+}
+
+/* .texto-producto:hover{
+transition: 0.5s;
+filter: blur(2px);
+} */
+
+/* productos */
+
+.e-1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+/* blurrea todo el producto tanto borde como titulo */
+/* .e-1:hover{
+    transition: 0.5s;
+    filter: blur(2px); */
+    /* opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms; */
+/* } */
+
+.e-2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+/* .e-2:hover{
+    transition: 0.5s;
+    filter: blur(2px);
+} */
+
+.e-3{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+/* .e-3:hover{
+    transition: 0.5s;
+    filter: blur(2px);
+} */
+
+.e-4{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+/* .e-4:hover{
+    transition: 0.5s;
+    filter: blur(2px);
+} */
+
+.e-5{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+/* .e-5:hover{
+    transition: 0.5s;
+    filter: blur(2px);
+} */
+
+.e-6{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+/* .e-6:hover{
+    transition: 0.5s;
+    filter: blur(2px);
+} */
+
+/* aside */
+
+
+/* footer */
+footer{
+    display: block;
+    text-align: center;
+    /* background-color: #a7c957; */
+    /* background-color: #b5d98f; */
+    background-color: #f2dc96;
+    padding: 20px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+footer li{
+    margin: 0 20px;
+    font-size: 22px;
+}
+
+footer a{
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-weight: bold;
+}
