@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* -------------- Body -------------- */
+body{
+    /* background-color: #d8eaab; */
+    background-color: #cdec84;
+
+}
+
+
+/* -------------- Header -------------- */
+header{
+    margin: 50px;
+    position: relative;
+    text-align: center;
+    display: block;
+    align-items: center;
+    /* padding: 5% 0 5% 0; */
+    /* display: flex; */
+    /* background-image: url(/img/huerta-1.jpg);
+    background-repeat: no-repeat;
+    /* background-position: top; */
+    /* background-color: #b5d98f; */
+    /* background-color: #f2dc96; */
+    /* position: sticky;
+    /*top: 0; */
+}
+
+.img-huerta-1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 330px;
+    filter: blur(2px);
+}
+
+.titulo{
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    font-size: 10em;
+    color: #ee6055;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    /* -webkit-text-stroke: 2px black */
+    /* margin: 20px 0; */
+    /* font-family: 'Cabin Sketch', cursive; */
+    /* font-family: 'Aref Ruqaa Ink', serif; */
+    /* font-family: 'Passions Conflict', cursive; */
+    /* right: 40px; */
+}
+
+/* -------------- navegationc -------------- */
+
+nav{
+    display: block;
+    position: sticky;
+    top: 0%;
+    background-color: #ffe67e;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: #ffe67e;
+    justify-content: space-around;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* margin-right: 45px; */
+}
+
+nav li{
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-weight: bold;
+    height: 50px;
+    position: relative;
+    left: 40px;
+    /* background-color: rgb(255,255,114); */
+    /* padding: 0 20px; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'Permanent Marker', cursive; */
+}
+
+nav a{
+    display: flex;
+    align-items: baseline;
+    padding: 0;
+}
+
+nav a:hover{
+    color: #ee6055;
+}
+
+/* _____________________ */
+
+/* -------------- main -------------- */
+
+
+
+/* -------------- section -------------- */
+
+
+
+/* -------------- article 1 -------------- */
+.welcome{
+    margin: 70px 50px 40px 50px;
+    display: block;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    /* position: relative;
+    top: 50px; */
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'Permanent Marker', cursive; */
+}
+
+.linea-hojas{
+    margin: 0;
+    width: 100%;
+    height: 250px;
+    /* transform: rotate(180deg); */
+}
+
+/* .first-article{
+    
+} */
+.container-perfil{
+    width: 100%;
+    /* display: flex; */
+    /* margin: 0 50px; */
+}
+
+.quien-soy{
+    /* width: 100%; */
+    display: flex;
+    margin: 10px 110px;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+}
+
+.yellow-flower{
+    width: 80px;
+}
+
+.p-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 200px;
+}
+
+.first-description{
+    display: block;
+    text-align: justify;
+    margin: 0 0 0 50px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    line-height: 30px;
+    width: 65%;
+}
+
+.foto-perfil{
+    /* width: ; */
+    height: 200px;
+    margin: 0 0px 20px 30px ;
+    border-radius: 15%;
+}
+
+/* -------------- article 2 -------------- */
+
+
+/* -------------- aside -------------- */
+
+
+/* -------------- footer -------------- */
+footer{
+    display: block;
+    text-align: center;
+    /* background-color: #a7c957; */
+    /* background-color: #b5d98f; */
+    background-color: #f2dc96;
+    padding: 20px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+footer li{
+    margin: 0 20px;
+    font-size: 22px;
+}
+
+footer a{
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: #ee6055;
+}
